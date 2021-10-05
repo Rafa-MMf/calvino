@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Condensed",sans-serif;
+}
+
+header {
+
+  background-color: #ff9063;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+header #logo {
+  margin: 30px 100px;
+}
+header a {
+  text-decoration: none;
+  color: #fff;
+}
+header #navegacao {
+  margin: 25px 30px;
+  width: 500px;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header #botao1 {
+  margin: 30px 100px;
+}
+
+#botao1 {
+  border: 1px solid #fff;
+  background: none;
+  border-radius: 30px;
+  padding: 12px 36px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 1px;
+  
+}
+
+#container1 {
+  background-image: url(https://preview.colorlib.com/theme/calvin/assets/img/hero/xh1_hero.png.pagespeed.ic.IyXrfm03ao.png)
+}
+#box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box #img {
+  margin: 100px;
+} 
+#box #text h1 {
+  font-size: 60px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 39px;
+}
+#box #text p {
+  color: #000;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+#info {
+  margin: 10px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 60px;
+}
+
+#container2 {
+  margin: 30px;
+  max-width: 100%;
+}
+#container2 h1 {
+  margin-bottom: 20px;
+  margin-left: 80px;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+#container2 table{
+  margin: auto;
+  border-color: black;
+}
+#container2 td {
+  width: 600px;
+  padding: 30px;
+}
+#container2 .titleTable {
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+#container2 a {
+  text-decoration: none;
+  color: #ff9063;
+
+}
+.link {
+  font-weight: 500;
+  font-size: 16px;
+
+  
+}
+td div {
+  margin: 5px -3px;
+  background: #ff9063;
+  height: 3px;
+  width: 200px;
+}
+
+#botao2 {
+  border: 1px solid #ff8553;
+  background: none;
+  border-radius: 30px;
+  padding: 12px 36px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 1px;
+    
+}
+.meio {
+  text-align: center;
+}
+
+
+
+#container3 {
+  width: 90%;
+  background: #f8f8f8;
+  border-radius: 0 90px 90px 0;
+}
+#container3 h1 {
+  margin-bottom: 20px;
+  margin-left: 80px;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+#container3 #box {
+  display: flex;
+}
+#box p {
+  font-family: "DM Sans",sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 35px;
+  margin-left: 20px;
+  margin-right: 120px;
+  max-width: 450px;
+}
+#box p span{
+  color: #ff8553;
+  font-size: 26px;
+}
+.progresso {
+  height: 35px;
+  width: 120%;
+  display: flex;
+  justify-content: space-between;
+}
+.progress {
+  margin-bottom: 40px;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: .75rem;
+  background-color: #e9ecef;
+  border-radius: .25rem;
+}
+.progress-bar {
+  width: 60%;
+  background-color: #ff8553;
+  border-radius: 7px;
+}
+
+
+
+#container4 {
+  text-align: center;
+}
+
+#container4 h1 {
+  font-size: 50px;
+  display: block;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 22px;
+}
+
+#container4 p  {
+  width: 800px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#container4 span {
+    color: #FF8553;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+
+
+#container5 table{
+  margin: auto;
+}
+
+#container5 h1 {
+    font-size: 50px;
+    display: block;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 22px;
+  }
+
+
+footer {
+  background: #000000;
+}
